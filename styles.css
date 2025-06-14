@@ -13,8 +13,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
-  margin: 50px 0;
-  margin-bottom: 100px;
+  margin: 50px 0 100px;
   gap: 40px;
 }
 
@@ -38,55 +37,31 @@ nav {
 
 /* MEDIA QUERIES */
 @media (max-width: 850px) {
-  /* SEÇÃO 1: Apresentação */
   .secao-apresentacao .texto h2 {
     font-size: 35px;
   }
 }
 
 @media (max-width: 740px) {
-  /* SEÇÃO 1: Apresentação */
   .secao-apresentacao {
     flex-direction: column-reverse;
   }
 
-  /* SEÇÃO 3: Depoimentos */
   .secao-depoimentos {
     text-align: center;
   }
 
-  .secao-depoimentos .grupo {
-    flex-direction: column;
-  }
-
-  /* SEÇÃO 4: Contato */
+  .secao-depoimentos .grupo,
   .secao-contato .grupo {
     flex-direction: column;
   }
 }
 
 @media (max-width: 600px) {
-  /* BARRA DE NAVEGAÇÃO */
-  nav {
-    padding: 0 20px;
-  }
-
-  /* SEÇÃO 1: Apresentação */
-  .secao-apresentacao {
-    padding: 0 20px;
-  }
-
-  /* SEÇÃO 2: Habilidades */
-  .secao-habilidades {
-    padding: 0 20px;
-  }
-
-  /* SEÇÃO 3: Depoimentos */
-  .secao-depoimentos {
-    padding: 0 20px;
-  }
-
-  /* SEÇÃO 4: Contato */
+  nav,
+  .secao-apresentacao,
+  .secao-habilidades,
+  .secao-depoimentos,
   .secao-contato {
     padding: 0 20px;
   }
