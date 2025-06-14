@@ -141,3 +141,8 @@ button {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a252f;
+}
